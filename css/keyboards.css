@@ -3,6 +3,7 @@ body {
   background-color: #f5ede0;
   color: #2c1a0e;
   font-size: 1rem;
+  text-align: center;
 }
 
 header {
@@ -29,11 +30,18 @@ header nav ul li a:hover {
   color: #2c1a0e;
 }
 
-ol, ul {
-  padding-left: 1.4rem;
-  margin-bottom: 0.6rem;
+img {
+    max-width: 40rem;
+    border: 2px solid #2c1a0e;
 }
 
-li {
-  margin-bottom: 0.2rem;
+h2 {
+    border-top: 1px solid #2c1a0e;
+    padding-top: 2em;
+}
+
+.caption {
+    padding-bottom: 2em;
+    font-style: italic;
+    line-height: 0.5em;
 }
