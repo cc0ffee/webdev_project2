@@ -6,13 +6,16 @@ body {
 }
 
 header {
+  max-width: 740px;
   margin: 2rem auto 3rem;
+  border-bottom: 1px solid #645151;
+  padding-bottom: 1rem;
 }
 
 header nav ul {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 2.5rem;
   list-style: none;
 }
 
@@ -23,5 +26,14 @@ header nav ul li a {
 }
  
 header nav ul li a:hover {
-    color: #2c1a0e;
+  color: #2c1a0e;
+}
+
+ol, ul {
+  padding-left: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+li {
+  margin-bottom: 0.2rem;
 }
