@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f5ede0;
@@ -8,6 +16,7 @@ body {
 }
 
 header {
+  font-family: "Muli", sans-serif;  
   max-width: 740px;
   margin: 2rem auto 3rem;
   border-bottom: 1px solid #645151;

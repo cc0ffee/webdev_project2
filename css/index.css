@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f5ede0;
   color: #2c1a0e;
   font-size: 1rem;
+  text-align: center;
   margin: 0 auto;
 }
 
 header {
+  font-family: "Muli", sans-serif;
   max-width: 740px;
   margin: 2rem auto 3rem;
   border-bottom: 1px solid #645151;
@@ -35,9 +45,15 @@ header nav ul li a:hover {
   margin-bottom: 1rem;
 }
 
+.hobby p {
+  line-height: 0.5em;
+}
+
 ol, ul {
   padding-left: 1.4rem;
   margin-bottom: 0.6rem;
+  display: inline-block;
+  text-align: left;
 }
 
 li {
@@ -45,8 +61,8 @@ li {
 }
 
 video {
-  display: block;
+  text-align: center;
   margin-top: 0.75rem;
-  max-width: 480px;
-  border: 2px solid #2c1a0e;
+  max-width: 360px;
+  border: 5px solid #b47e59;
 }
