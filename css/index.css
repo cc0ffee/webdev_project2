@@ -3,6 +3,7 @@ body {
   background-color: #f5ede0;
   color: #2c1a0e;
   font-size: 1rem;
+  margin: 0 auto;
 }
 
 header {
@@ -47,5 +48,5 @@ video {
   display: block;
   margin-top: 0.75rem;
   max-width: 480px;
-  border: 1px solid var(--border);
+  border: 2px solid #2c1a0e;
 }

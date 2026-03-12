@@ -2,7 +2,9 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f5ede0;
   color: #2c1a0e;
-  font-size: 1rem;
+  font-size: 16px;
+  width: 740px;
+  margin: 0 auto;
 }
 
 header {
@@ -36,4 +38,54 @@ ol, ul {
 
 li {
   margin-bottom: 0.2rem;
+}
+
+#contact {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #2c1a0e;
+}
+
+#contact h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+section {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+}
+
+ul {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+ 
+.work {
+  margin-bottom: 16px;
+}
+ 
+.work:last-child {
+  margin-bottom: 0;
+}
+ 
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+ 
+h4 {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
