@@ -16,11 +16,12 @@ body {
 }
 
 header {
-  font-family: "Muli", sans-serif;
+  font-family: "Muli", Verdana, sans-serif;
   max-width: 740px;
   margin: 2rem auto 3rem;
   border-bottom: 1px solid #645151;
   padding-bottom: 1rem;
+  position: relative;
 }
 
 header nav ul {
@@ -35,7 +36,7 @@ header nav ul li a {
   text-decoration: none;
   color: #9c7a5e;
 }
- 
+
 header nav ul li a:hover {
   color: #2c1a0e;
 }
