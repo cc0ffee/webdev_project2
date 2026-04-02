@@ -65,6 +65,8 @@ img {
   margin: 0 auto;
 }
 
+/* index page styling */
+
 #bio {
   max-width: 500px;
   margin: 0 auto 2rem;
@@ -91,9 +93,7 @@ img {
   line-height: 1.5em;
 }
 
-#info h2 {
-  padding-top: 1em;
-}
+/* keyboard page styling */
 
 .caption {
   padding-bottom: 2em;
@@ -118,34 +118,20 @@ img {
   line-height: 1.5em;
 }
 
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #f5ede0;
-  color: #2c1a0e;
-  font-size: 16px;
-  width: 740px;
-  margin: 0 auto;
-}
-
-ol, ul {
-  padding-left: 1.4rem;
-  margin-bottom: 0.6rem;
-}
-
-li {
-  margin-bottom: 0.2rem;
-}
+/* resume page styling */
 
 #contact {
   margin-bottom: 28px;
   padding-bottom: 20px;
   border-bottom: 2px solid #2c1a0e;
+  overflow: hidden;
 }
 
 #contact h1 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 5px;
+  border-top: none;
 }
 
 #contact .contact-details {
@@ -158,36 +144,23 @@ section {
   margin-bottom: 24px;
   padding-bottom: 20px;
 }
-
-ul {
-  text-align: left;
-  padding-left: 20px;
-  margin-bottom: 0;
-}
-
-h2 {
-  font-weight: bold;
-  margin-bottom: 14px;
-}
  
 .work {
   margin-bottom: 16px;
+  overflow: hidden;
 }
  
 .work:last-child {
   margin-bottom: 0;
 }
- 
-h3 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 2px;
+
+#skills ul {
+  list-style: disc;
+  text-align: left;
+  padding-left: 1.4rem;
+  display: block;
 }
- 
-h4 {
-  font-size: 14px;
-  font-weight: normal;
-  font-style: italic;
-  margin-top: 6px;
-  margin-bottom: 6px;
+
+#skills li {
+  margin-bottom: 0.4rem;
 }
