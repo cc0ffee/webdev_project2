@@ -154,6 +154,13 @@ section {
   margin-bottom: 0;
 }
 
+.work .date {
+  float: right;
+  font-size: 0.875rem;
+  font-style: italic;
+  color: #645151;
+}
+
 #skills ul {
   list-style: disc;
   text-align: left;
