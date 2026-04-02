@@ -60,9 +60,9 @@ video {
 }
 
 img {
-    max-width: 40rem;
-    border: 2px solid #2c1a0e;
-    margin: 0 auto;
+  max-width: 40rem;
+  border: 2px solid #2c1a0e;
+  margin: 0 auto;
 }
 
 #bio {
@@ -99,6 +99,15 @@ img {
   padding-bottom: 2em;
   font-style: italic;
   line-height: 1.4em;
+}
+
+#keyboard-pictures {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#keyboard-pictures .keyboard {
+  margin-bottom: 3rem;
 }
 
 #info h2 {
