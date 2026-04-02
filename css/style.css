@@ -120,6 +120,12 @@ img {
 
 /* resume page styling */
 
+.resume-container {
+  width: 740px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 #contact {
   margin-bottom: 28px;
   padding-bottom: 20px;
@@ -128,7 +134,7 @@ img {
 }
 
 #contact h1 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 5px;
   border-top: none;
@@ -144,7 +150,13 @@ section {
   margin-bottom: 24px;
   padding-bottom: 20px;
 }
- 
+
+.resume-container h2 {
+  border-top: 1px solid #2c1a0e;
+  padding-top: 0.75em;
+  margin-bottom: 14px;
+}
+
 .work {
   margin-bottom: 16px;
   overflow: hidden;
