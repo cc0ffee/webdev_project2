@@ -91,23 +91,22 @@ img {
   line-height: 1.5em;
 }
 
-h2 {
-    border-top: 1px solid #2c1a0e;
-    padding-top: 2em;
+#info h2 {
+  padding-top: 1em;
 }
 
 .caption {
-    padding-bottom: 2em;
-    font-style: italic;
-    line-height: 0.5em;
+  padding-bottom: 2em;
+  font-style: italic;
+  line-height: 1.4em;
 }
 
 #info h2 {
-    padding-top: 1em;
+  padding-top: 1em;
 }
 
 #info p {
-    line-height: 0.5em;
+  line-height: 1.5em;
 }
 
 body {
