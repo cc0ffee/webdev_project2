@@ -70,7 +70,6 @@ h4 {
 ol, ul {
   padding-left: 1.4rem;
   margin-bottom: 0.6rem;
-  display: inline-block;
   text-align: left;
 }
 
@@ -116,16 +115,23 @@ a:hover {
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #7a4f2e;
+  border-bottom: 2px solid #2c1a0e;
 }
 
 .hobby {
-  padding-left: 1rem;
-  margin-bottom: 1rem;
-  overflow: hidden;
+  max-width: 500px;
+  margin: 0 auto 1.5rem;
+  text-align: left;
 }
 
 .hobby p {
   line-height: 1.5em;
+}
+
+.hobby ol,
+.hobby ul {
+  display: block;
+  text-align: left;
 }
 
 /* keyboard page styling */
